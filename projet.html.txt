@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Madrid Players 2025/2026 | Koyso Style</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #0a0a0a;
+            color: #f0f0f0;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 30px 20px;
+            background: #111;
+            border-bottom: 1px solid #222;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #FEBE10;
+        }
+        
+        .header p {
+            color: #aaa;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .players {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        
+        .player {
+            background: #1a1a1a;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+            transition: transform 0.3s;
+            border: 1px solid #333;
+        }
+        
+        .player:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(254, 190, 16, 0.2);
+        }
+        
+        .player img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            display: block;
+        }
+        
+        .player-info {
+            padding: 15px;
+        }
+        
+        .player-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            color: #fff;
+        }
+        
+        .player-position {
+            color: #FEBE10;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        
+        .wiki-link {
+            display: block;
+            text-align: center;
+            background: #00529F;
+            color: white;
+            padding: 8px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        .wiki-link:hover {
+            background: #003d7a;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #666;
+            border-top: 1px solid #222;
+            background: #111;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Real Madrid Players 2025/2026</h1>
+        <p>Click on any player to view their Wikipedia page</p>
+    </div>
+    
+    <div class="container">
+        <div class="players">
+            <!-- Player 1 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/OIP%20(3).webp" alt="Thibaut Courtois">
+                <div class="player-info">
+                    <div class="player-name">Thibaut Courtois</div>
+                    <div class="player-position">Goalkeeper</div>
+                    <a href="https://en.wikipedia.org/wiki/Thibaut_Courtois" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 2 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/20649_skills.png" alt="Dani Carvajal">
+                <div class="player-info">
+                    <div class="player-name">Dani Carvajal</div>
+                    <div class="player-position">Right Back</div>
+                    <a href="https://en.wikipedia.org/wiki/Dani_Carvajal" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 3 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/6dc68182262299764dec5a71ee20e79b.jpg" alt="Éder Militão">
+                <div class="player-info">
+                    <div class="player-name">Éder Militão</div>
+                    <div class="player-position">Centre Back</div>
+                    <a href="https://en.wikipedia.org/wiki/%C3%89der_Milit%C3%A3o" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 4 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/OIP%20(4).webp" alt="Antonio Rüdiger">
+                <div class="player-info">
+                    <div class="player-name">Antonio Rüdiger</div>
+                    <div class="player-position">Centre Back</div>
+                    <a href="https://en.wikipedia.org/wiki/Antonio_R%C3%BCdiger" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 5 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/67337482.webp" alt="Ferland Mendy">
+                <div class="player-info">
+                    <div class="player-name">Ferland Mendy</div>
+                    <div class="player-position">Left Back</div>
+                    <a href="https://en.wikipedia.org/wiki/Ferland_Mendy" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 6 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/OIP%20(5).webp" alt="Luka Modrić">
+                <div class="player-info">
+                    <div class="player-name">Luka Modrić</div>
+                    <div class="player-position">Midfielder</div>
+                    <a href="https://en.wikipedia.org/wiki/Luka_Modri%C4%87" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 7 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/maxresdefault.jpg" alt="Aurélien Tchouaméni">
+                <div class="player-info">
+                    <div class="player-name">Aurélien Tchouaméni</div>
+                    <div class="player-position">Midfielder</div>
+                    <a href="https://en.wikipedia.org/wiki/Aur%C3%A9lien_Tchouam%C3%A9ni" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 8 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/25-50570701.c9605cf14386a321b27ba92ea1ab8bcada4401ea9707e0181872189d014b52c2.webp" alt="Federico Valverde">
+                <div class="player-info">
+                    <div class="player-name">Federico Valverde</div>
+                    <div class="player-position">Midfielder</div>
+                    <a href="https://en.wikipedia.org/wiki/Federico_Valverde" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 9 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/1_org_zoom.webp" alt="Jude Bellingham">
+                <div class="player-info">
+                    <div class="player-name">Jude Bellingham</div>
+                    <div class="player-position">Midfielder</div>
+                    <a href="https://en.wikipedia.org/wiki/Jude_Bellingham" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 10 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/OIP%20(6).webp" alt="Vinícius Júnior">
+                <div class="player-info">
+                    <div class="player-name">Vinícius Júnior</div>
+                    <div class="player-position">Forward</div>
+                    <a href="https://en.wikipedia.org/wiki/Vin%C3%ADcius_J%C3%BAnior" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 11 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/4a20c82fd87579a0eddf25267427193a.jpg" alt="Rodrygo">
+                <div class="player-info">
+                    <div class="player-name">Rodrygo</div>
+                    <div class="player-position">Forward</div>
+                    <a href="https://en.wikipedia.org/wiki/Rodrygo" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 12 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/OIP%20(7).webp" alt="Kylian Mbappé">
+                <div class="player-info">
+                    <div class="player-name">Kylian Mbappé</div>
+                    <div class="player-position">Forward</div>
+                    <a href="https://en.wikipedia.org/wiki/Kylian_Mbapp%C3%A9" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 13 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/endrick-copa-america-v0-8autj2vq4o5d1.webp" alt="Endrick">
+                <div class="player-info">
+                    <div class="player-name">Endrick</div>
+                    <div class="player-position">Forward</div>
+                    <a href="https://en.wikipedia.org/wiki/Endrick" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 14 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/84134323.webp" alt="Eduardo Camavinga">
+                <div class="player-info">
+                    <div class="player-name">Eduardo Camavinga</div>
+                    <div class="player-position">Midfielder</div>
+                    <a href="https://en.wikipedia.org/wiki/Eduardo_Camavinga" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+            
+            <!-- Player 15 -->
+            <div class="player">
+                <img src="https://uploads.onecompiler.io/443k65dk4/443k8xnzz/1_org_zoom%20(1).webp" alt="Arda Güler">
+                <div class="player-info">
+                    <div class="player-name">Arda Güler</div>
+                    <div class="player-position">Midfielder</div>
+                    <a href="https://en.wikipedia.org/wiki/Arda_G%C3%BCler" class="wiki-link" target="_blank">Wikipedia</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">Realise par AHMED KHAMMASSI 
+    contact ahmedkhammassi53@gmail.com</div>
+</body>
+</html>
